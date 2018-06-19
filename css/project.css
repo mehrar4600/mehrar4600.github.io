@@ -1,0 +1,35 @@
+.proj{
+    /* background-color: rgba(243, 173, 42, 0.952); */
+    text-align: center;
+    height:auto;
+    width:auto; 
+}
+.projPicture img{
+    height:200px;
+    width:200px;
+    margin:40px 0px 20px 0px;
+    padding-right: 0px;
+     /* color: var(green); */
+     border-radius:50%;
+     text-align: center;
+     list-style: none;
+     border:  solid 2px;
+   border-color:orange;
+  border-bottom-color: blanchedalmond; 
+     
+}
+
+
+.projPicture a:hover{
+color:orange;
+background-color: black;
+font-family: 'Times New Roman', Times, serif;
+}
+.proj h1{
+    color:white;
+    text-align: center;
+    font-family: cursive;
+    background: radial-gradient(orange, orangered);
+    padding-top:30px;
+    padding-bottom:30px;
+}

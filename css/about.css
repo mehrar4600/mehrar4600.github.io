@@ -1,0 +1,46 @@
+.aboutMe1{
+/* background-color: rgba(243, 173, 42, 0.952); */
+/* border-radius: 50%; */
+}
+
+.aboutMe{
+    text-align: center;
+    
+    /* height:500px; */
+}
+@keyframes aboutMe {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+.aboutMe img{
+    border-radius: 50%;
+    text-align: left;
+    height: 250px;
+    width:250px;
+}
+.hed h1{
+    color: silver;
+    background: linear-gradient(to right, rgba(255,0,0,0),
+     rgba(255,0,0,2));
+     padding-right: 10px;
+     padding-top:10px;
+     padding-bottom:30px;
+     text-align:center;
+     text-shadow: 1px 1px 2px black, 0 0 15px gold;
+     font-family: cursive;
+}
+p{
+    margin:10px;
+    color:white;
+    text-align: center;
+    /* border-radius:50% */
+}
+
+.aboutPic img{
+    border-radius:50%;
+    background-color: rgba(243, 173, 42, 0.952);
+    margin:0px 0px 100px 0px;
+}
+.about{
+    /* background-color: rgba(243, 173, 42, 0.952); */
+}
