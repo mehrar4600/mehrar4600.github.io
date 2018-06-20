@@ -1,16 +1,6 @@
-.aboutMe1{
-/* background-color: rgba(243, 173, 42, 0.952); */
-/* border-radius: 50%; */
-}
-
 .aboutMe{
     text-align: center;
-    
-    /* height:500px; */
-}
-@keyframes aboutMe {
-    from {background-color: red;}
-    to {background-color: yellow;}
+    margin-bottom:30px;
 }
 .aboutMe img{
     border-radius: 50%;
@@ -19,28 +9,51 @@
     width:250px;
 }
 .hed h1{
-    color: silver;
-    background: linear-gradient(to right, rgba(255,0,0,0),
-     rgba(255,0,0,2));
+    color: black;
+    background: linear-gradient
+    (to right, rgba(245, 93, 5, 0), rgba(255, 0, 0, 2));
      padding-right: 10px;
      padding-top:10px;
      padding-bottom:30px;
      text-align:center;
      text-shadow: 1px 1px 2px black, 0 0 15px gold;
      font-family: cursive;
+     font-size:40px;
+}
+h2{
+    color: darkblue;
 }
 p{
     margin:10px;
-    color:white;
+    color:whitesmoke;
     text-align: center;
-    /* border-radius:50% */
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+    background-color: transparent;
 }
 
 .aboutPic img{
-    border-radius:50%;
+    height:250px;
+    width:250px;
+    border-radius:50px 50px 50px 120px;
     background-color: rgba(243, 173, 42, 0.952);
-    margin:0px 0px 100px 0px;
+    margin:0px 50px 0px 50px;
+    border:solid 5px;
+    border-color: white;
+    border-bottom-color:darkblue;
 }
-.about{
-    /* background-color: rgba(243, 173, 42, 0.952); */
+.aboutPic1 img{
+    border-radius:50px 120px 50px 50px;
+    background-color: rgba(243, 173, 42, 0.952);
+    margin:0px 0px 90px 0px;
+    border:solid 5px;
+    border-color: white;
+    border-bottom-color:darkblue;
 }
+#about{
+    background-color: rgba(243, 173, 42, 0.952);
+}
+.aboutPic1{
+    margin-bottom:20px;
+}
+
