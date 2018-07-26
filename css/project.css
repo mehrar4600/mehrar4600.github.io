@@ -17,8 +17,7 @@
     border-bottom-color: blanchedalmond; 
     border-top-color: aqua;
     border-right-color:blue;
-    margin-bottom: 30px;
-        
+    margin-bottom: 30px;      
 }
 .overlay{
   position: absolute;
@@ -55,10 +54,6 @@
 }
 .projPicture:hover .overlay{
     opacity: 1;
-}
-.projPicture:hover .overlay1{
-    bottom: 0;
-    height:100%;
 }
 .projPicture a:hover{
     color:orange;
